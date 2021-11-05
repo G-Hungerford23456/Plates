@@ -15,9 +15,8 @@ final class GolbalVars: ObservableObject {
     
     
     init(){
-        self.Plate1 = "Plate" + String(Numbers)
         self.Numbers = Int.random(in: 0...51)
-        
+    
     }
     
     
