@@ -11,11 +11,11 @@ final class GolbalVars: ObservableObject {
     @Published var bg: Bool = false
     @Published var Plate1: String
     @Published var Selected: Int = 2
-    @Published var Numbers: Int
+    @Published var Numbers: Int.random(1.)
     
     
     init(){
-        self.Numbers = Int.random(in: 0...51)
+        self.Numbers = Numbers
     
     }
     
